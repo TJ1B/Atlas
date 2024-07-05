@@ -256,21 +256,18 @@ document.addEventListener('DOMContentLoaded', () => {
         let drawCount = 0;
         const drawInterval = setInterval(() => {
             randomImagesContainer.innerHTML = '';
-            const randomImages = [];
-            while (randomImages.length < 3) {
+            const columns = 3;
+            
+            for (let i = 0; i < columns; i++) {
                 const randomImage = images[Math.floor(Math.random() * images.length)];
-                if (!randomImages.includes(randomImage)) {
-                    randomImages.push(randomImage);
-                }
-            }
-            randomImages.forEach(image => {
                 const imgElement = document.createElement('img');
-                imgElement.src = image.src;
-                imgElement.alt = `${image.location} - ${image.theme}`;
+                imgElement.src = randomImage.src;
+                imgElement.alt = `${randomImage.location} - ${randomImage.theme}`;
                 imgElement.className = 'object-cover w-1/3 h-full p-1 rounded-lg transition transform hover:scale-105 cursor-pointer';
-                imgElement.addEventListener('click', () => openModal(image.src)); // Make the random images clickable
+                imgElement.addEventListener('click', () => openModal(randomImage.src)); // Make the random images clickable
                 randomImagesContainer.appendChild(imgElement);
-            });
+            }
+    
             drawCount += 1;
             if (drawCount === 10) {
                 clearInterval(drawInterval);
