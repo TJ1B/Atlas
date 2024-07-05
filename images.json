@@ -9,7 +9,6 @@
     { "src": "images/manhole_6_tokyo.png", "location": "Tokyo", "theme": "Test", "color": "Grey", "lat": 35.682839, "lon": 139.759455 },
     { "src": "images/manhole_7_beijing.png", "location": "Beijing", "theme": "Test", "color": "Grey",  "lat": 39.9042, "lon": 116.4074 },
     { "src": "images/random_1_beijing.png", "location": "Beijing", "theme": "Test", "color": "Yellow",  "lat": 39.9042, "lon": 116.4074 },
-    { "src": "images/sign_1_tokyo.png", "location": "Tokyo", "theme": "Test", "color": "White", "lat": 35.682839, "lon": 139.759455 },
     { "src": "images/item_1_shenzhen.png", "location": "Shenzhen", "theme": "Test", "color": "Yellow", "lat": 22.5431, "lon": 114.0579 },
     { "src": "images/bin_3_lisbon.png", "location": "Lisbon", "theme": "Example", "color": "Green", "lat": 38.7167, "lon": -9.1333 },
     { "src": "images/Q.png", "location": "Other", "theme": "Q", "color": "Green" }
