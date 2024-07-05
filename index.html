@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyberpunk Image Showcase</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2.2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+<body class="bg-gray-900 text-gray-100">
+    <!-- Section 1: Header and Navigation -->
+    <header class="p-4 bg-gray-800 shadow-lg w-full fixed top-0 z-50">
+        <div class="flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-cyan-400">Tenjo-1-Atlas</h1>
+           <!--  <nav>
+                <a href="#top" class="px-4 text-cyan-400 hover:text-white">地球图鉴</a>
+                <a href="#ending" class="px-4 text-cyan-400 hover:text-white">今日贝运</a>
+            </nav> -->
+            <div class="filter-container">
+                <label for="themeFilter" class="text-lg text-white">Theme:</label>
+                <select id="themeFilter" class="bg-gray-800 text-lg text-white">
+                    <option value="all">All</option>
+                    <option value="Test">Test</option>
+                    <option value="Example">Example</option>
+                   
+                </select>
+            </div>
+        </div>
+        
+    </header>
+
+
+    <!-- Section 2: Map -->
+    <div id="map-container" class="relative w-4/5 lg:w-4/5 mx-auto mt-24 mb-8" style="height: 50vh;">
+        <div id="map" class="w-full h-full rounded-full z-10 border-8 border-gray-700 shadow-lg"></div>
+        <div id="reset-location-container" class="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-center z-50">
+            <span id="location-text" class="block text-gray-600 font-bold text-2xl mb-1 hidden"></span>
+            <button id="reset-filter" class="px-4 py-1 bg-green-500 hover:bg-green-600 text-white  rounded-xl hidden">Reset</button>
+        </div>
+    </div>
+
+
+    <!-- Filter Information -->
+    <div id="filter-info" class="w-full flex items-center justify-center hidden">
+        <span id="filter-text" class="font-bold text-2xl"></span>
+    </div>
+    
+
+
+    <!-- Section 3: Image Array -->
+    <main id="gallery" class="w-full lg:w-3/5 mx-auto flex flex-wrap justify-center mx-8 mt-8 mb-12 overflow-y-auto max-h-96">
+        <!-- Images will be inserted here by JavaScript -->
+    </main>
+
+  <!-- Modal Structure -->
+<div id="imageModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
+    <div class="relative bg-white rounded-3xl p-6 w-3/4 max-w-md mx-auto">
+        <span id="closeModal" class="absolute top-2 right-2 cursor-pointer text-gray-700 text-2xl">&times;</span>
+        <h2 id="modalTitle" class="text-2xl font-bold text-gray-700 text-left mb-2">Image Title</h2>
+        
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img id="selectedImage" src="" alt="Selected Image" class="max-w-full max-h-96 mx-auto mb-4">
+                </div>
+                <div class="swiper-slide">
+                    <img id="mappedImage" src="" alt="Mapped Image" class="max-w-full max-h-96 mx-auto mb-4">
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+        
+        <p id="modalDescription" class="text-sm text-center text-gray-700 mb-2">Image description goes here.</p>
+    </div>
+</div>
+
+
+
+
+
+    <!-- Section 4: Ending Picture and Some Words -->
+    <section id="ending" class="w-full mx-auto p-6 bg-gray-800 text-center">
+        
+        <div id="ending-image" class="w-4/5 lg:w-2/5 h-40 mx-auto bg-gray-700 mb-4 p-4 rounded-3xl shadow-lg">
+            <div id="random-images" class="flex flex-wrap justify-center items-center h-full"></div>
+        </div>
+        <p class="text-xl mb-2">格物致知</p>
+        <button id="show-random-images" class="px-3 py-2 m-2 bg-green-500 hover:bg-green-600 text-700 rounded-xl">试试手气</button>
+        
+        
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
