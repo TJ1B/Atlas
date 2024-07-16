@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "images/manhole_7_beijing.png": {
             src: "images/manhole_7.2_beijing.png",
             title: "樱花园里的井盖",
-            description: "“已知：樱花园里有樱花妹。求解：什么井里有black water？”"
+            description: "“已知樱花园里有樱花妹。求解什么井里有black water？”"
         },
         "images/Q.png": {
             src: "images/Q.2.png",
