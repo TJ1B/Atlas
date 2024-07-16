@@ -60,10 +60,10 @@ document.addEventListener('DOMContentLoaded', () => {
             title: "乌龟头",
             description: "“不是乌龟头。可能是鸽子头？”"
         },
-        "images/random_1_beijing.png": {
-            src: "images/random_1.2_beijing.png",
-            title: "下水道上的猫",
-            description: "“这是一只栖息在北京玉渊潭公园井盖上的赛博猫娘。当科研人员发现她时，她正在利用下水道风冷降低机箱温度。”"
+        "images/cart_1_zhengzhou.png": {
+            src: "images/cart_1_zhengzhou_street.png",
+            title: "高压清洗车",
+            description: "“操场上不知道用来干嘛的小车”"
         },
         "images/item_1_shenzhen.png": {
             src: "images/item_1.2_shenzhen.png",
