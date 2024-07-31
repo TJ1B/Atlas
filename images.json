@@ -1,15 +1,13 @@
 [
   
   
-    { "src": "images/manhole_7_beijing.png", "location": "Beijing", "theme": "Test", "color": "Grey",  "lat": 39.9042, "lon": 116.4074 },
-    { "src": "images/item_1_shenzhen.png", "location": "Shenzhen", "theme": "Test", "color": "Yellow", "lat": 22.5431, "lon": 114.0579 },
+    
     { "src": "images/cart_1_zhengzhou.png", "location": "Zhengzhou", "theme": "Test", "color": "Yellow", "lat": 34.7466, "lon": 113.6254 },
-    { "src": "images/bin_3_lisbon.png", "location": "Lisbon", "theme": "Example", "color": "Green", "lat": 38.7167, "lon": -9.1333 },
-    { "src": "images/bin_1_ny.png", "location": "New York", "theme": "Test", "color": "Green", "lat": 40.712776, "lon": -74.005974 },
-    { "src": "images/bin_2_ny.png", "location": "New York", "theme": "Test", "color": "Green", "lat": 40.712776, "lon": -74.005974 },
-    { "src": "images/manhole_6_tokyo.png", "location": "Tokyo", "theme": "Test", "color": "Grey", "lat": 35.682839, "lon": 139.759455 },
-    { "src": "images/manhole_3_rome.png", "location": "Rome", "theme": "Test", "color": "Grey", "lat": 41.902783, "lon": 12.496366 },
-    { "src": "images/manhole_4_mumbai.png", "location": "Mumbai", "theme": "Test", "color": "Grey", "lat": 19.075984, "lon": 72.877656 },
-    { "src": "images/manhole_5_ny.png", "location": "New York", "theme": "Test", "color": "Grey", "lat": 40.712776, "lon": -74.005974 },
+    { "src": "images/bin_3_lisbon.png", "location": "Lisbon", "theme": "Test", "color": "Green", "lat": 38.7167, "lon": -9.1333 },
+    { "src": "images/animal_1_nara.png", "location": "Nara", "theme": "Test", "color": "Brown", "lat": 34.6851, "lon": 135.8048 },
+    { "src": "images/umbrella_1_putian.png", "location": "Putian", "theme": "Test", "color": "Pink", "lat": 25.0511, "lon": 119.1246 },
+
+    { "src": "images/manhole_7_beijing.png", "location": "Beijing", "theme": "Archive", "color": "Grey",  "lat": 39.9042, "lon": 116.4074 },
+    { "src": "images/item_1_shenzhen.png", "location": "Shenzhen", "theme": "Archive", "color": "Yellow", "lat": 22.5431, "lon": 114.0579 },
     { "src": "images/Q.png", "location": "Other", "theme": "Q", "color": "Green" }
 ]

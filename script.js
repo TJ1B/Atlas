@@ -58,22 +58,22 @@ document.addEventListener('DOMContentLoaded', () => {
         "images/bin_3_lisbon.png": {
             src: "images/bin_3_lisbon_street.png",
             title: "乌龟头",
-            description: "“不是乌龟头。可能是鸽子头？”"
+            description: "不是乌龟头。可能是鸽子头？"
         },
         "images/cart_1_zhengzhou.png": {
             src: "images/cart_1_zhengzhou_street.png",
             title: "高压清洗车",
-            description: "“操场上不知道用来干嘛的小车”"
+            description: "操场上不知道用来干嘛的小车"
         },
-        "images/item_1_shenzhen.png": {
-            src: "images/item_1.2_shenzhen.png",
-            title: "井盖？",
-            description: "“两张图拍摄相隔四年，设备也不一样。”"
+        "images/umbrella_1_putian.png": {
+            src: "images/umbrella_1_putian_street.png",
+            title: "蘑菇蘑菇？",
+            description: "位于福建省莆田市（湄洲岛）的沙滩遮阳茅草伞"
         },
-        "images/manhole_7_beijing.png": {
-            src: "images/manhole_7.2_beijing.png",
-            title: "樱花园里的井盖",
-            description: "“已知樱花园里有樱花妹。求解什么井里有black water？”"
+        "images/animal_1_nara.png": {
+            src: "images/animal_1_nara_street.png",
+            title: "しかしかのこ…",
+            description: "拍摄于奈良春日大社"
         },
         "images/Q.png": {
             src: "images/Q.2.png",
