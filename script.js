@@ -70,6 +70,16 @@ document.addEventListener('DOMContentLoaded', () => {
             title: "蘑菇蘑菇？",
             description: "位于福建省莆田市（湄洲岛）的沙滩遮阳茅草伞"
         },
+        "images/bin_1_wuhan.png": {
+            src: "images/bin_1_wuhan_street.png",
+            title: "雨中平躺的垃圾桶",
+            description: "校园是我家，环境靠大家"
+        },
+        "images/car_1_tokyo.png": {
+            src: "images/car_1_tokyo_street.png",
+            title: "像素小车（出自《樱花大战》）",
+            description: "……发出温暖而明亮的光来"
+        },
         "images/animal_1_nara.png": {
             src: "images/animal_1_nara_street.png",
             title: "しかしかのこ…",
