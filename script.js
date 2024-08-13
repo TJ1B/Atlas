@@ -85,6 +85,11 @@ document.addEventListener('DOMContentLoaded', () => {
             title: "しかしかのこ…",
             description: "拍摄于奈良春日大社"
         },
+        "images/animal_2_kaifeng.png": {
+            src: "images/animal_2_kaifeng_street.png",
+            title: "鸽子zǐ（三声）",
+            description: "正在接受人类仰望的圣贤鸽子zǐ（三声）"
+        },
         "images/Q.png": {
             src: "images/Q.2.png",
             title: "感谢试用❤",
