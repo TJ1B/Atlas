@@ -9,6 +9,9 @@
     { "src": "images/car_1_tokyo.png", "location": "Tokyo", "theme": "Object", "color": "Black", "lat": 35.682839, "lon": 139.759455 },
     { "src": "images/bin_1_wuhan.png", "location": "Wuhan", "theme": "Object", "color": "White",  "lat": 30.5928, "lon": 114.3055 },
     { "src": "images/animal_2_kaifeng.png", "location": "Kaifeng", "theme": "Animal", "color": "Grey",  "lat": 34.7857, "lon": 114.3076 },
+    { "src": "images/booth_1_osaka.png", "location": "Osaka", "theme": "Object", "color": "Yellow",  "lat": 34.6937, "lon": 135.5023 },
+    { "src": "images/cone_1_los angeles.png", "location": "Los Angeles", "theme": "Object", "color": "Yellow",  "lat": 33.8719, "lon": -118.4066 },
+
 
     { "src": "images/Q.png", "location": "Other", "theme": "Q", "color": "Green" }
 ]

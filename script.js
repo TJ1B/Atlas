@@ -90,6 +90,16 @@ document.addEventListener('DOMContentLoaded', () => {
             title: "鸽子zǐ（三声）",
             description: "正在接受人类仰望的圣贤鸽子zǐ（三声）"
         },
+        "images/booth_1_osaka.png": {
+            src: "images/booth_1_osaka_street.png",
+            title: "立入禁止",
+            description: "被神秘力量封印的电话亭，会不会钻出来什么东西呢"
+        },
+        "images/cone_1_los angeles.png": {
+            src: "images/cone_1_los angeles_street.png",
+            title: "高高的路障",
+            description: "能走的地方都算路，有路就有路障"
+        },
         "images/Q.png": {
             src: "images/Q.2.png",
             title: "感谢试用❤",
