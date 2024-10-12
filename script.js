@@ -100,6 +100,11 @@ document.addEventListener('DOMContentLoaded', () => {
             title: "高高的路障",
             description: "能走的地方都算路，有路就有路障"
         },
+        "images/unknown_1_cala.png": {
+            src: "images/unknown_1_cala_street2.png",
+            title: "ERROR41N9E",
+            description: "我们仍未知道那天他拍到了什么"
+        },
         "images/Q.png": {
             src: "images/Q.2.png",
             title: "感谢试用❤",
