@@ -12,6 +12,7 @@
     { "src": "images/booth_1_osaka.png", "location": "Osaka", "theme": "Place", "color": "Yellow",  "lat": 34.6937, "lon": 135.5023 },
     { "src": "images/cone_1_los angeles.png", "location": "Los Angeles", "theme": "Object", "color": "Yellow",  "lat": 33.8719, "lon": -118.4066 },
     { "src": "images/unknown_1_cala.png", "location": "Cala Santa Maria", "theme": "Unknown", "color": "Black",  "lat": 41.2896491, "lon": 9.3685382 },
+    { "src": "images/bin_4_longquan.png", "location": "Longquan", "theme": "Object", "color": "Brown",  "lat": 28.0746, "lon": 119.1413 },
 
 
     { "src": "images/Q.png", "location": "Other", "theme": "Q", "color": "Green" }
