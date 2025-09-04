@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
             description: "我们仍未知道那天他拍到了什么"
         },
         "images/bin_4_longquan.png": {
-            src: "images/bin_4_longquan_street.png",
+            src: "images/bin_4_longquan_street2.png",
             title: "绿毛垃圾",
             description: "绿毛垃圾桶"
         },
